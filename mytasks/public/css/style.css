@@ -1,0 +1,161 @@
+body{
+	background: #F5F5F5;
+	margin: 0px;
+	padding: 0px;
+}
+
+#topnav{
+	width: 100%;
+	background: gray;
+	height: 55px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #0288D1;
+
+}
+#wrap{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+46&0.1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.1) 0%, rgba(255,255,255,0.05) 46%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(255,255,255,0.05) 46%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(255,255,255,0.05) 46%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+#leftnav{
+	background: #03A9F4;
+	height: 100%;
+	position: relative;
+	width: 120px;
+	float: left;
+
+
+}
+#app-brand{
+	color: white;
+	font-size: 40px;
+}
+#leftnav a{
+	color:#B3E5FC;
+	text-decoration: none;
+	padding-top: 10px;
+	width: 100%;
+	display: block;
+
+	text-align: center;
+
+}
+.app-button{
+	width: 100%;
+
+	position: relative;
+}
+#leftnav a i.fa{
+	position: relative;
+	display: block;
+	font-size: 70px;
+
+}
+
+#taskList{
+	color: black;
+}
+#taskList li{
+	font-size: 24px;
+}
+
+.s1{
+	color: #0288D1;
+}
+.s0{
+	color: #ffacac;
+}
+.s3{
+	color: rgb(187, 101, 197);
+}
+
+.title{
+	display: block;
+}
+.description{
+	color: gray;
+	font-size: 15px;
+}
+.date{
+	font-size: 15px;
+	margin-left: 50px;
+}
+.task-head{
+	float: left;
+	display: inline-block;
+	height: 50px;
+	font-size: 50px;
+}
+.task-head.finished i{
+ color: #ffacac;
+}
+.task-head.created i{
+
+}
+
+.task-body{
+	display: inline-block;
+	margin-left: 20px;
+	max-width: 90%;
+	width: 100%;
+}
+.date-created{
+	color: #398686;
+}
+.date-finished{
+	color: red;
+}
+.date-created, .date-finished{
+	font-size: 15px;
+	margin-left: 20px;
+}
+#main{
+	margin-top: 20px;
+
+
+}
+button.finished{
+	display: none;
+
+}
+button#add{
+	position: relative;
+
+}
+#taskOptions{
+	padding-left: 20px;
+	max-width: 100%;
+	width: 100%;
+	padding-right: 20px;
+}
+a#addNew{
+	display: inline-block;
+	float: left;
+	border-radius: 0px;
+}
+#addNew button{
+	border-radius: 0px;
+}
+a{
+	text-decoration: none !important;
+}
+
+a.finishTask button{
+		font-size: 24px;
+ 		vertical-align: middle;
+ 		margin-top: 11px;
+
+}
+
+.languages button.state1{
+background: rgba(180, 203, 206, 0.14);
+color: #0288D1;
+font-weight: 800;
+}

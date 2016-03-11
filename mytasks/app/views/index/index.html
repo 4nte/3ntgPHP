@@ -1,0 +1,28 @@
+<div class="col-md-12">
+
+<ul class="list-group" id="taskList">
+
+  	{*foreach task in tasks*}
+ 	<li class="list-group-item">
+		<div class="row">
+			<div class="col-md-10">
+				<div class="task-head {{task.status}}">
+				<i class="icon-circle s1"></i>
+				</div>
+				<div class="task-body">
+					<span class="title"> {{task.title}} <span class="date-{{task.status}}"> <i class="icon-calendar"></i> {{task.status|t}} {{task.date}}</span> <span class="date-end"></span></span>
+	 				<span class="description">{{task.description}}</span>
+
+				</div>
+			</div>
+			<div class="col-md-2">
+				<a class="finishTask" href="/add/finish/{{task.titleEncoded}}/{{task.status}}">
+					<button type="submit" class="btn btn-primary btn-block {{task.status}}"><i class="icon-ok"></i> {{close|t}} </button>
+				</a>
+			</div>
+		</div>
+	</li>
+
+	\}
+</ul>
+</div>
